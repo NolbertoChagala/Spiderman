@@ -1,0 +1,97 @@
+*{
+    margin: 0;   
+    padding: 0;
+}
+body{
+    background-color:  #E0F7FA ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.marvel{
+    width:35%;
+    padding: 10px;
+    float: left;
+}
+header{
+    background-color: antiquewhite;
+    display: inline-block;
+    width: 100%;
+    justify-content: center;
+}
+.letra{
+    display: inline-block;
+}
+h1{
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12em;
+    color: black;
+
+}
+nav{
+    text-align: center;
+    
+}
+.lista{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li a{
+    display: block;
+    padding: 14px 16px;
+    color: white;
+}
+nav ul li{
+    display: inline-flex;
+    margin: 5px;
+    font-size: 25px;  
+}
+
+li a:hover{
+    background-color: #3f4446;
+    color: white;
+}
+
+.centro{
+    padding: auto;
+    margin: 2px;
+}
+.texto1{
+    font-size: 20px;
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.init{
+    
+    text-align: justify;
+}
+.titulo1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.imagen{
+    text-align: center;
+}
+.spider{
+    width: 50%;
+    padding: 3px;
+    overflow: hidden;
+}
+.spider:hover{
+    background-color: bisque;
+    transform:scale(.9);
+    cursor: pointer;
+}
+footer{
+    background-color: antiquewhite;
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+
+}
